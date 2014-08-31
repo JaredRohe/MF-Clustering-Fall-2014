@@ -118,6 +118,7 @@ else
     load('SP500_IndustryMatrix.mat');
     Industries=SP500industries;
 
+  
 
 end
 

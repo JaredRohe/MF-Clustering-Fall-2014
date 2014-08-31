@@ -47,29 +47,7 @@ end
 
 
 %% Computing Distance and Similarity
-% % my distance
-% if strcmp(metric,'returns')
-%     data=logreturns;
-% else
-%     data=Rank;
-% end
-% 
-% Dist=zeros(stockcount,stockcount);
-% 
-% for i=1:N
-%     for j=i+1:N
-%         v1=data(:,i);
-%         v2=data(:,j);
-%         
-%         EDist= sqrt(sum((v2 - v1).^2));
-%         
-%         Dist(i,j)=EDist;
-%         Dist(j,i)=EDist;
-%         
-%     end
-% end
 
-% original distance
 
 if strcmp(metric,'returns')
     data=logreturns;
