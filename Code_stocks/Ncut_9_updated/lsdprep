@@ -1,0 +1,7 @@
+function [ output_args ] = nmfrprep( slidingwindow,numcluster,alg  )
+%UNTITLED2 Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+
